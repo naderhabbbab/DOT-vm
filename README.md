@@ -5,11 +5,12 @@ Dot VM is a forensic machine designed to help analysts perform their job easily 
 
 Dot VM can handle many disk image formats directly, without the need for any additional tools or utilities. Here are some of the disk image formats that Dot VM can handle directly:
 
-RAW disk image (.raw)
-Split RAW disk image (.001, .002, .003, etc.)
-VMware Virtual Disk Format (.vmdk)
-Microsoft Virtual Hard Disk Format (.vhd, .vhdx)
-EnCase Evidence File Format (.e01)
+- RAW disk image (.raw)
+- Split RAW disk image (.001, .002, .003, etc.)
+- VMware Virtual Disk Format (.vmdk)
+- Microsoft Virtual Hard Disk Format (.vhd, .vhdx)
+- EnCase Evidence File Format (.e01)
+
 
 To use Dot VM and start analyzing disk images, follow these instructions:
 
@@ -21,7 +22,7 @@ To use Dot VM and start analyzing disk images, follow these instructions:
 navigathe through the browser to 0.0.0.0:5601 to start discover the ingested data
 
 
-
+As alternative DOT vm was loaded with timesketch 
 To set up and run Timesketch, follow these instructions:
 
 Navigate to the Timesketch directory by executing the following command: cd /opt/timesketch.
