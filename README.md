@@ -3,6 +3,14 @@ forensic machine designed to help analysts perform their job easily and efficien
 
 Dot VM is a forensic machine designed to help analysts perform their job easily and efficiently. It is a collection of open-source tools that includes Dissect, Log2timeline, Hayabusa, Timesketch, and ELK stack as a backend. 
 
+Dot VM can handle many disk image formats directly, without the need for any additional tools or utilities. Here are some of the disk image formats that Dot VM can handle directly:
+
+RAW disk image (.raw)
+Split RAW disk image (.001, .002, .003, etc.)
+VMware Virtual Disk Format (.vmdk)
+Microsoft Virtual Hard Disk Format (.vhd, .vhdx)
+EnCase Evidence File Format (.e01)
+
 To use Dot VM and start analyzing disk images, follow these instructions:
 
 - Open the Filebeat folder located on the desktop and execute the following command: ./filebeat -e -c monitor.yml.
