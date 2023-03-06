@@ -9,7 +9,9 @@ To use Dot VM and start analyzing disk images, follow these instructions:
 
 - Open the Logstash folder and execute the following command: ./logstash -f /home/forensics/Desktop/logstash-8.6.2/Parssing.conf.
 
-- To start the analysis, execute DOT.sh with the sudo command.
+- To start the analysis, execute DOT.sh with the sudo command, it will provide the analyste with multipile choise to be selected , once the analysis done 
+navigathe through the browser to 0.0.0.0:5601 to start discover the ingested data
+
 
 
 To set up and run Timesketch, follow these instructions:
